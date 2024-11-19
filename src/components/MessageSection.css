@@ -1,0 +1,29 @@
+.message-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.959);
+    opacity: 0.95;
+    z-index: 1;
+    text-align: center;
+    /* Centra el texto */
+    font-size: 1.5rem;
+    /* Fondo ligeramente transparente */
+    margin: 0;
+    /* Elimina márgenes */
+    width: 100%;
+    /* Ocupa todo el ancho */
+    border-radius: 0;
+    /* Elimina los bordes redondeados si no se necesitan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-section p {
+    margin: 0.5rem 0;
+    /* Espacio entre párrafos */
+}
+
+.message-section .highlight {
+    font-weight: bold;
+    font-size: 20px;
+    /* Aplica negritas */
+}

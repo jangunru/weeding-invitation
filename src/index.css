@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    padding: 0;
+
+
+    /* Replace with your image URL */
+    background-size: auto;
+    /* Cover the entire viewport */
+    background-position: center;
+    /* Center the background image */
+    /* Prevent the background from repeating */
+    color: #333;
+    /* Change font color for better contrast */
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 18px;
+
+}
+
+/* Optional: Adjust the transparency of the background image */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White background with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    /* Optional: Rounded corners */
+}
+
+/* General styles for headings */
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+button,
+.map-button,
+.option-button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+.map-button:hover,
+.option-button:hover {
+    background-color: darken(#007bff, 10%);
+}
+
+/* Basic Form Styling */
+input {
+    width: 80%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+
+p,
+a .label {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+        background-image: url('../public/images/fondo1.png');
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+.font-edu-1 {
+    font-family: cursive;
+    font-size: 32px;
+
 }

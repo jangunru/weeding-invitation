@@ -1,0 +1,138 @@
+.cover-photo {
+    background-size: cover;
+    background-position: left;
+    height: 75vh;
+    position: sticky;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    /* Positioning at the bottom */
+    right: 20px;
+    /* Positioning at the right */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Aligns items vertically at the end */
+    align-items: flex-end;
+    /* Aligns items horizontally at the right */
+    color: white;
+}
+
+.names {
+    font-family: cursive;
+    /* Optional font: you can use a custom Google font if you prefer */
+    color: rgb(5, 3, 3);
+    font-size: 3.5rem;
+    margin: 0;
+    padding-top: 0.5rem;
+    /* Remove default margins */
+}
+
+.countdown {
+    position: absolute;
+    bottom: -420px;
+    /* Space from the bottom of the cover photo */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust for perfect centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: semi-transparent background */
+
+    /* Ensures that all items are aligned in a single row */
+    flex-wrap: nowrap;
+}
+
+.countdown-values {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-values span {
+    padding: 1px 13px;
+    /* Adjust padding for better spacing */
+    background-color: #c6e6c3;
+    color: #0c0b0b;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 21px;
+    /* Space out each item */
+    width: 240px;
+}
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+
+
+    .overlay {
+        position: absolute;
+        top: 75px;
+        /* Positioning at the bottom */
+        right: 20px;
+        /* Positioning at the right */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* Aligns items vertically at the end */
+        align-items: flex-end;
+        /* Aligns items horizontally at the right */
+        color: white;
+    }
+
+    .names {
+        font-family: cursive;
+        /* Optional font: you can use a custom Google font if you prefer */
+        color: rgb(247, 239, 239);
+        font-size: 3.5rem;
+        margin: 0;
+        /* Remove default margins */
+    }
+
+    .countdown {
+        position: absolute;
+        bottom: -360px;
+        /* Space from the bottom of the cover photo */
+        left: 50%;
+        /* Center horizontally */
+        transform: translateX(-50%);
+        /* Adjust for perfect centering */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Optional: semi-transparent background */
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+        /* Ensures that all items are aligned in a single row */
+        flex-wrap: nowrap;
+    }
+
+    .countdown-values {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .countdown-values span {
+        padding: 1px 13px;
+        /* Adjust padding for better spacing */
+        background-color: #c6e6c3;
+        color: #0c0b0b;
+        border-radius: 5px;
+        font-family: cursive;
+        font-size: 21px;
+        /* Space out each item */
+        width: 240px;
+    }
+
+}

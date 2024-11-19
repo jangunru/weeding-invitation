@@ -1,0 +1,54 @@
+/* Container for Dress Code Section */
+.dress-code-container {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.959);
+    opacity: 0.95;
+    z-index: 1;
+}
+
+
+/* Flexbox layout for the three sections */
+.dress-code-sections {
+    background-color: #c6e6c3;
+    /* Color claro similar al de un post-it */
+    border: 1px solid #c6e6c3;
+    /* Borde sutil */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* Espaciado interno */
+    margin: 18px auto;
+    /* Estilo de fuente */
+    color: #333;
+    /* Color de texto */
+    max-width: 500px;
+    /* Ancho máximo opcional */
+    text-align: center;
+    /* Centrado del texto */
+}
+
+
+
+.dress-code-section img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+/* Responsive Layout for smaller screens */
+@media (max-width: 768px) {
+    .dress-code-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+}

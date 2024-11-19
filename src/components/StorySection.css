@@ -1,0 +1,86 @@
+.story-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.959);
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.rings-icon {
+    width: 100px;
+    height: 100px;
+    margin: 1rem auto;
+}
+
+
+p {
+    font-size: 1.1rem;
+    color: rgb(5, 5, 5);
+}
+
+.venue-info {
+    background-color: #c6e6c3;
+    /* Color claro similar al de un post-it */
+    border: 1px solid #c6e6c3;
+    /* Borde sutil */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* Espaciado interno */
+    margin: 18px auto;
+    /* Estilo de fuente */
+    color: #333;
+    /* Color de texto */
+    max-width: 500px;
+    /* Ancho máximo opcional */
+    text-align: center;
+    /* Centrado del texto */
+
+}
+
+.icon-columns {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.icon-column p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+.location-button {
+    background-color: #6c8b58;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.location-button:hover {
+    background-color: #6c8b58;
+}
+
+.font-edu-1 {
+    font-family: cursive;
+    font-size: 32px;
+}

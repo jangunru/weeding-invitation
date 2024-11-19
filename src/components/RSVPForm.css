@@ -1,0 +1,85 @@
+/* RSVP Container */
+.rsvp-container-1 {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.959);
+    opacity: 0.95;
+
+}
+
+.rsvp-container {
+
+    background-color: #c6e6c3;
+    /* Color claro similar al de un post-it */
+    border: 1px solid #c6e6c3;
+    /* Borde sutil */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    padding: 16px;
+    /* Espaciado interno */
+    margin: 1px auto;
+    /* Margen superior e inferior, centrado horizontal */
+    font-family: 'Arial', sans-serif;
+    /* Estilo de fuente */
+    color: #333;
+    /* Color de texto */
+    max-width: 500px;
+    /* Ancho máximo opcional */
+    text-align: center;
+    /* Centrado del texto */
+    background-color: rgba(255, 255, 255, 0.959);
+    opacity: 0.9;
+}
+
+.rsvp-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rsvp-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rsvp-container label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.rsvp-container select,
+.rsvp-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.attendee-name {
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #c6e6c3;
+    color: #5d5d5d;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #c6e6c3;
+}
+
+.form-style {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+
+}

@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import CoverPhoto from './components/CoverPhoto';
+import StorySection from './components/StorySection';
+import PhotoCollage from "./components/PhotoCollage";
+import OptionsSection from "./components/OptionsSection";
+import DressCode from "./components/DressCode";
+import RSVPForm from "./components/RSVPForm";
+import Registry from "./components/Registry";
+import MessageSection from "./components/MessageSection"
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <CoverPhoto />
+            <StorySection />
+            <PhotoCollage />
+            <MessageSection />
+            <Registry />
+            <OptionsSection />
+            <DressCode />
+            <RSVPForm />
+
+
+        </div>
+    )
 }
 
 export default App;

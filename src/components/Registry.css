@@ -1,0 +1,87 @@
+/* Center everything inside the post-it container */
+.post-it-registry {
+    background-color: #c7deb8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Horizontally center the content */
+    justify-content: center;
+    /* Vertically center the content */
+    text-align: center;
+    /* Center the text inside */
+    /* Centers the whole .post-it container on the page */
+    width: 100%;
+    /* Optional: limits the width of the .post-it container */
+}
+
+.toggle-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #6c8b58;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.toggle-button:hover {
+    background-color: #6c8b58;
+}
+
+
+
+.gift-icon {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.bank-info p {
+    margin: 0px 0;
+    font-size: 14px;
+}
+
+/* Optional: Add a margin to the paragraph text for better spacing */
+p {
+    margin: 10px 0;
+}
+
+.font-edu-1 {
+    font-family: cursive;
+    font-size: 32px;
+
+}
+
+.bank-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    justify-items: center;
+    font-size: 14px;
+}
+
+.sobres {
+    grid-column: 1 / -1;
+    /* Hace que abarque todas las columnas */
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.mensaje_sobre {
+    font-size: 14px;
+}
