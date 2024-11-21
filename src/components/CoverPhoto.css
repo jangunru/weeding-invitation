@@ -23,11 +23,18 @@
 .names {
     font-family: cursive;
     /* Optional font: you can use a custom Google font if you prefer */
-    color: rgb(5, 3, 3);
+    color: rgb(247, 239, 239);
     font-size: 3.5rem;
     margin: 0;
-    padding-top: 0.5rem;
     /* Remove default margins */
+    text-shadow:
+        1px 1px 0 black,
+        /* Sombra abajo-derecha */
+        -1px -1px 0 black,
+        /* Sombra arriba-izquierda */
+        1px -1px 0 black,
+        /* Sombra arriba-derecha */
+        -1px 1px 0 black;
 }
 
 .countdown {
@@ -95,6 +102,15 @@
         font-size: 3.5rem;
         margin: 0;
         /* Remove default margins */
+        text-shadow:
+            1px 1px 0 black,
+            /* Sombra abajo-derecha */
+            -1px -1px 0 black,
+            /* Sombra arriba-izquierda */
+            1px -1px 0 black,
+            /* Sombra arriba-derecha */
+            -1px 1px 0 black;
+        /* Sombra abajo-izquierda */
     }
 
     .countdown {
