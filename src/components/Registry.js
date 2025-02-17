@@ -31,7 +31,7 @@ const Registry = () => {
             </button>
 
             {/* Información bancaria colapsable */}
-            {showBankDetails && (
+            {true && (
                 <div className="bank-details">
                     <img src="/images/africa.png" alt="Gift Icon" className="gift-icon" />
                     <div className="bank-info">
